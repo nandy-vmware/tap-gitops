@@ -1,10 +1,6 @@
 apiVersion: data.packaging.carvel.dev/v1alpha1
 kind: Package
 metadata:
-  labels:
-    app.kubernetes.io/part-of: tjwa
-    apps.tanzu.vmware.com/carvel-package-workflow: "true"
-    apps.tanzu.vmware.com/workload-type: server
   name: tjwa.my-apps.tap.20240418184125.0.0+build.6db88c7
 spec:
   refName: tjwa.my-apps.tap
